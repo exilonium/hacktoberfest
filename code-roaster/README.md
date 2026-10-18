@@ -1,44 +1,77 @@
 # Roast My Code
 
-A VS Code extension that roasts your code like a comedian — savage, funny, but actually helpful.
+> **Roasts your code so hard you'll question your career, but still gives you real fixes.**
 
-## Features
+A VS Code extension that reviews your code like a savage stand-up comedian. Choose your pain level and watch your code get absolutely obliterated.
 
-- **Roast entire file** — Opens command palette → `Roast My Code`
-- **Roast selected code** — Right-click selection → `Roast Selected Code`
-- **3 roast levels** — Mild, Medium, Savage 💀
-- **Quick roast picker** — Choose the roast intensity right before you run it
-- **Copy roast button** — Copy the generated roast from the results panel
+## ✨ Features
 
-## Setup
+- **🔥 Roast entire file** - Opens command palette -> `Roast My Code`
+- **🔥 Roast selected code** - Right-click selection -> `Roast Selected Code`
+- **🔥 Set roast level** - Command palette -> `Set Roast Level`
+- **🎚️ Interactive level picker** - Choose your roast intensity before each roast
+- **🎨 Premium UI** - Glassy webview with animated gradients, damage bars, and copy actions
+- **⚡ Smart scaling** - Token limits and creativity scale with roast intensity
+
+## 🎚️ Roast Levels
+
+| Level | Emoji | Vibe | What to Expect |
+|-------|-------|------|----------------|
+| **Mild** | 😊 | Disappointed Dad | Light jabs, gentle humor, still loves you |
+| **Medium** | 🔥 | Comedy Roast | Stand-up comedian at a tech roast |
+| **Spicy** | 🌶️ | WWE Commentary | Over the top, all caps, dramatic |
+| **Savage** | 💀 | Gordon Ramsay | Brutal, meme-heavy, "this is raw" energy |
+| **Nuclear** | ☢️ | Psychological Warfare | Profiles your code, destroys your soul |
+| **Existential Crisis** | 🕳️ | Therapy Required | May cause career changes and existential dread |
+
+## 🚀 Setup
 
 1. Clone this repo
 2. Run `npm install`
-3. Add your OpenAI API key in VS Code settings → `codeRoaster.apiKey`
+3. Add your OpenAI API key in VS Code settings -> `codeRoaster.apiKey`
 4. Press `F5` to launch the extension in a new window
 
-## Usage
+## 🎯 Usage
 
 ```
-Ctrl+Shift+P → "Roast My Code"
+Ctrl+Shift+P -> "Roast My Code"
 ```
-Or right-click any selected code → **🔥 Roast Selected Code**
 
-## Settings
+Or right-click any selected code -> **🔥 Roast Selected Code**
+
+Or set your default level:
+
+```
+Ctrl+Shift+P -> "Set Roast Level"
+```
+
+## ⚙️ Settings
 
 | Setting | Default | Description |
 |---------|---------|-------------|
 | `codeRoaster.apiKey` | `""` | Your OpenAI API Key |
-| `codeRoaster.roastLevel` | `"medium"` | `mild` / `medium` / `savage` |
+| `codeRoaster.roastLevel` | `"medium"` | Default roast level: `mild` / `medium` / `spicy` / `savage` / `nuclear` / `existential-crisis` |
 
-## Contributing
+## 🎨 UI Features
 
-This is an open source project! Feel free to:
-- Add new roast styles
-- Add support for other AI providers (Gemini, Claude)
+- **Animated background** - Floating glow gradients and premium dark panels
+- **Color themes** - Each roast level has its own color scheme
+- **Damage bar** - Visual indicator of roast intensity with glowing segments
+- **Gradient text** - Premium header with accent gradients
+- **Copy action** - Copy the generated roast directly from the panel
+- **Open settings** - Jump back to roast settings from the panel
+
+## 🤝 Contributing
+
+This is a **Hacktoberfest** open source project. Feel free to:
+- Add new roast styles and levels
+- Add support for other AI providers (Gemini, Claude, local LLMs)
 - Add inline diagnostics instead of a panel
-- Add a leaderboard of worst code 😂
+- Add code fix suggestions alongside roasts
+- Improve the webview UI with more animations
 
-## License
+## 📜 License
 
 MIT
+
+> *Built with 🔥, OpenAI, and questionable life choices.*
