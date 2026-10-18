@@ -1,21 +1,21 @@
 {
   "name": "code-roaster",
-  "displayName": "Code Roaster 🔥",
-  "description": "Roasts your code so hard you'll question your career — but actually helps you improve it",
+  "displayName": "Roast My Code",
+  "description": "A wildly overengineered code roaster with savage roast levels and a premium result panel",
   "version": "0.2.0",
-  "engines": {
-    "vscode": "^1.85.0"
-  },
-  "categories": [
-    "Other"
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Other"],
+  "activationEvents": [
+    "onCommand:code-roaster.roastMyCode",
+    "onCommand:code-roaster.roastSelection",
+    "onCommand:code-roaster.setRoastLevel"
   ],
-  "activationEvents": [],
   "main": "./src/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "code-roaster.roastMyCode",
-        "title": "🔥 Roast My Code"
+        "title": "Roast My Code"
       },
       {
         "command": "code-roaster.roastSelection",
@@ -36,7 +36,7 @@
       ]
     },
     "configuration": {
-      "title": "Code Roaster",
+      "title": "Roast My Code",
       "properties": {
         "codeRoaster.apiKey": {
           "type": "string",
