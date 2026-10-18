@@ -7,6 +7,8 @@ A VS Code extension that roasts your code like a comedian — savage, funny, but
 - **Roast entire file** — Opens command palette → `Roast My Code`
 - **Roast selected code** — Right-click selection → `Roast Selected Code`
 - **3 roast levels** — Mild, Medium, Savage 💀
+- **Quick roast picker** — Choose the roast intensity right before you run it
+- **Copy roast button** — Copy the generated roast from the results panel
 
 ## Setup
 
