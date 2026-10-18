@@ -1,17 +1,20 @@
 {
   "name": "code-roaster",
-  "displayName": "Code Roaster 🔥",
+  "displayName": "Roast My Code",
   "description": "Roasts your code like a comedian but actually helps you improve it",
   "version": "0.0.1",
   "engines": { "vscode": "^1.85.0" },
   "categories": ["Other"],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:code-roaster.roastMyCode",
+    "onCommand:code-roaster.roastSelection"
+  ],
   "main": "./src/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "code-roaster.roastMyCode",
-        "title": "🔥 Roast My Code"
+        "title": "Roast My Code"
       },
       {
         "command": "code-roaster.roastSelection",
@@ -28,7 +31,7 @@
       ]
     },
     "configuration": {
-      "title": "Code Roaster",
+      "title": "Roast My Code",
       "properties": {
         "codeRoaster.apiKey": {
           "type": "string",

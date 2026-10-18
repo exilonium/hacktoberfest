@@ -1,4 +1,4 @@
-# 🔥 Code Roaster
+# Roast My Code
 
 A VS Code extension that roasts your code like a comedian — savage, funny, but actually helpful.
 
